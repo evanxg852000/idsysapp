@@ -280,6 +280,10 @@ a.nav-link {
     padding-bottom: 4px; 
 }
 
+a.nav-link:hover{
+	color: #1694d2;
+}
+
 div.hero {
 	text-align: center;
 }
@@ -531,3 +535,5 @@ body.form {
 .form-signup .form-control:focus {
 	z-index: 2;
 }
+
+
