@@ -337,13 +337,13 @@ div.features-content {
 	
 }
 
-div.screenshot-frame {
+/* div.screenshot-frame {
     width: 585px;
 }
 
 div.screenshot-frame > img {
 	width: 585px;
-}
+} */
 
 div.features-list {
 	text-align: left;
@@ -413,9 +413,12 @@ div.testimonials {
 
 div.usecases {
 	margin-top: 50px;
+	width: 80%;
+	margin:0 auto;
 }
 
 .usecases-content {
+	margin:0 auto;
 	margin-top: 50px;
 }
 
@@ -425,12 +428,12 @@ div.usecases {
     display: inline-block;
     padding: 30px 10px;
     box-sizing: border-box;
-    width: 260px;
+    width: 100%;
     vertical-align: top;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0 auto;
 	margin-bottom: 20px;
 	text-align: center;
+	height:400px;
 }
 
 .usecases-item:hover {
@@ -459,9 +462,10 @@ div.pricing {
 }
 
 div.pricing-content {
-	width: 820px;
+	width: 100%;
 	text-align: center;
 	margin: 50px auto;
+	padding:10px;
 }
 
 /* developers */
