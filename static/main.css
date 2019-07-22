@@ -347,7 +347,6 @@ div.screenshot-frame > img {
 
 div.features-list {
 	text-align: left;
-	padding-top: 30px;
 }
 
 div.features-list .list-group-item{
@@ -413,7 +412,7 @@ div.testimonials {
 
 div.usecases {
 	margin-top: 50px;
-	width: 80%;
+	width: 90%;
 	margin:0 auto;
 }
 
@@ -498,7 +497,7 @@ div.developers-content p{
 }
 
 div.developers-api {
-	background: url(img/api-image.png) no-repeat left top;
+	background: url(img/asset13.svg) no-repeat left top;
     height: 320px;
 }
 
