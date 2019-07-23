@@ -234,20 +234,47 @@ html {
 }
 
 .container {
-max-width: 960px;
+	max-width: 1170px;
 }
 
 .pricing-header {
-max-width: 700px;
+	max-width: 700px;
 }
 
 .card-deck .card {
-min-width: 220px;
+	min-width: 220px;
 }
 
+.card {
+	padding-right: 0;
+ 	padding-left: 0;
+}
 
-.container-wrapper {
-    width: 1170px;
+button.navbar-toggler {
+	border:#fff solid 1px; 
+	padding:5px; 
+	color:#fff;
+}
+
+.login-btn {
+	background: #1694D2 !important;
+	border-color: #1694D2 !important; 
+}
+
+.login-btn:hover {
+	border-color: rgb(17, 157, 228) !important;
+	background: rgb(17, 157, 228) !important; 
+}
+
+span.navbar-toggler-icon {
+	color:#fff; 
+	width:30px; 
+	height:30px; 
+	background-image: url(img/navicon.svg) !important;
+}
+
+.container-wrapper {	
+	max-width: 1170px;
     margin: 0 auto;
 }
 
@@ -277,11 +304,18 @@ a.nav-link {
     font-size: 16px;
     color: #fff;
     padding-top: 4px;
-    padding-bottom: 4px; 
+	padding-bottom: 4px; 
+	text-align:center;
 }
 
 a.nav-link:hover{
 	color: #1694d2;
+}
+
+a.nav-link.last{
+	color:#1694D2; 
+	background:#fff; 
+	border:none;
 }
 
 div.hero {
@@ -289,15 +323,13 @@ div.hero {
 }
 
 div.hero h1 {
-    font-size: 56px;
+    font-size:400%;
     text-align: center;
     padding-top: 100px;
     padding-bottom: 20px;
     font-weight: bold;
-    line-height: normal;
+	line-height: normal;	
 }
-
-
 
 
 div.trusted-by {
@@ -311,7 +343,8 @@ div.trusted-by {
 
 div.trusted-by img{
     display: block;
-    margin: auto;
+	margin: auto;
+	width: 100%;
 }
 
 div.features {
@@ -385,6 +418,15 @@ div.testimonials {
 	color: #2c404d;
 }
 
+.carousel-caption h1 {
+	font-size: 250%;
+ }
+
+.carousel-caption h5{
+	font-size: 100%; 
+	font-weight:normal; 
+}
+
 .carousel-caption p {
 	font-family: "Times New Roman",Times,serif;
 	font-size: 23px;
@@ -455,6 +497,10 @@ div.usecases {
     line-height: 1.6;
 }
 
+.usecases-item img {
+	width: 140px;
+}
+
 /* pricing */
 div.pricing {
 	margin-top: 50px;
@@ -467,6 +513,11 @@ div.pricing-content {
 	padding:10px;
 }
 
+.shadow-sm {
+	box-shadow: .1px .1px 20px 1px rgb(179, 206, 219) !important;
+}
+
+
 /* developers */
 
 div.developers {
@@ -476,7 +527,8 @@ div.developers {
 }
 
 div.developers div.row {
-	padding-top: 10px; 
+	padding-top: 20px; 
+	padding-bottom: 20px;
 }
 
 div.developers-content {
@@ -489,6 +541,10 @@ div.developers-content h3{
 	color: #40464a;
 }
 
+div.developers-content h5 {
+	font-weight: normal;
+}
+
 div.developers-content p{
 	color: #4a6a80;
     font-size: 16px;
@@ -497,7 +553,7 @@ div.developers-content p{
 }
 
 div.developers-api {
-	background: url(img/asset13.svg) no-repeat left top;
+	background: url(img/asset13.svg) no-repeat right top;
     height: 320px;
 }
 
