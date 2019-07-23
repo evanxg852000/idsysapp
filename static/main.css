@@ -134,8 +134,9 @@ blockquote {
 	line-height: 1.3em;
 	background: #ebf5ff;
 	border: none !important;
+	border-radius: 5px;
 	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px
+	-moz-border-radius: 5px;
 }
 
 blockquote p {
